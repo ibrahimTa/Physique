@@ -2,6 +2,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import random
 
+# Beau graphique random, go Hacktoberfest !
+
 vec = []
 i = 0
 while i < 50:
@@ -15,4 +17,4 @@ while i < 50:
 print(vec)
  
 plt.hist(vec,25)          
-plt.show()                  
+plt.show()
